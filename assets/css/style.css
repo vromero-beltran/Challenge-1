@@ -19,8 +19,8 @@
 .header h1 .seo {
     color: #d9dcd6;
 }
-
-.header div {
+/* changed the header parent and child (div) into (nav) for better accessibility. */
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -28,11 +28,11 @@
     font-size: 20px;
 }
 
-.header div ul {
+.header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
