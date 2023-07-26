@@ -3,6 +3,12 @@
     padding: 0;
     margin: 0;
 }
+/* changed the div element after nav into the main element */
+main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
 /* Deleted background-color in body becasue it was already white */ 
 .header {
     padding: 20px;
@@ -19,7 +25,7 @@
 .header h1 .seo {
     color: #d9dcd6;
 }
-/* changed the header parent and child (div) into (nav) for better accessibility. */
+/* changed the header element parent and child (div) into (nav) for better accessibility. */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -113,19 +119,19 @@ p {
 }
 
 .benefit-lead img {
-    display: block;
+    display: flex;
     margin: 10px auto;
     max-width: 150px;
 }
 
 .benefit-brand img {
-    display: block;
+    display: flex;
     margin: 10px auto;
     max-width: 150px;
 }
 
 .benefit-cost img {
-    display: block;
+    display:block;
     margin: 10px auto;
     max-width: 150px;
 }
